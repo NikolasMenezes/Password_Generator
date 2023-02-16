@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "tourney", sans-serif;
+}
+
+body{
+    background-color: #18181b;
+}
+
+h1{
+    color: #FDFDFD;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 42px;
+}
+
+p{
+    color: #FDFDFD;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#container{
+    width: 500px;
+    position: relative;
+    padding-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#qty-picker{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #FDFDFD;
+    margin-bottom: 25px;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+#generator-btn{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #2958f2;
+    color: #FDFDFD;
+    border: 1px solid transparent;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+#generator-btn:hover{
+    background-color: #FDFDFD;
+    color: #2958f2;
+    border: 1px solid #2958f2;
+}
+
+#password-container{
+    width: 500px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+
+#password-container p{
+    margin-bottom: 15px;
+}
+
+#password{
+    color: #FDFDFD;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: .25rem;
+    transition: all .5s linear;
+    cursor: pointer;
+}
+
+#password:hover{
+    transform: scale(1.1);
+}
+
+.hide{
+    display: none;
+}
