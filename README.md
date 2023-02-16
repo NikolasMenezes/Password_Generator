@@ -1,2 +1,2 @@
 # Password_Generator
-This is aHTML, CSS and JavaScript password generator project.
+This is a HTML, CSS and JavaScript password generator project.
