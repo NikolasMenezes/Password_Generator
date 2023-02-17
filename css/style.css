@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: "tourney", sans-serif;
+    font-family: "helvetica", sans-serif;
 }
 
 body{
@@ -72,7 +72,7 @@ p{
     margin-bottom: 15px;
 }
 
-#password{
+#generated-password{
     color: #FDFDFD;
     padding: 20px;
     margin-bottom: 10px;
@@ -82,13 +82,8 @@ p{
     display: block;
     border: 1px solid #ddd;
     border-radius: .25rem;
-    transition: all .5s linear;
-    cursor: pointer;
 }
 
-#password:hover{
-    transform: scale(1.1);
-}
 
 .hide{
     display: none;
